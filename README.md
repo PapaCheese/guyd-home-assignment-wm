@@ -1,6 +1,8 @@
 # Backend CRUD app built with Micronaut + Kotlin + MongoDB
 
-## API endpoints for blogpost:
+Has 2 resources: Blogpost and Product.
+
+## API endpoints for Blogpost:
 
 ### GET {URL}/blogpost -> returns list of ids
 
@@ -53,7 +55,7 @@ params:
 
 - id: String
 
-## API endpoints for product are the same (at /product)
+## API endpoints for Product are the same (at /product)
 
 ---
 
