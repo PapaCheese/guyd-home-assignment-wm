@@ -1,0 +1,16 @@
+micronaut:
+  application:
+    name: guy-wm-ha
+  serialization:
+    bson:
+      enabled: true
+---
+#tag::db[]
+db:
+  name: 'guyd'
+  collection: 'blogpost'
+
+#end::db[]
+mongodb:
+  uri: ${MONGODB_URI}
+
