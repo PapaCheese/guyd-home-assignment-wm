@@ -53,7 +53,7 @@ params:
 
 - id: String
 
-## API endpoints for product are the same
+## API endpoints for product are the same (at /product)
 
 ---
 
@@ -64,4 +64,5 @@ Use "./gradlew run" command to start server
 I added the ${MONGODB_URI} param in the application.yml file for environment variables creation in piplines.
 
 for simplicity i used this command to have it run locally:
+
 ./gradlew run --args="-mongodb.uri=mongodb://localhost:27017/"
